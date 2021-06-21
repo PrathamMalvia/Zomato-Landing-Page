@@ -9,6 +9,29 @@ body{
     background-color: #ebf2ff;
 }
 
+.button__primary{
+    background-image: linear-gradient( 
+        to right,
+        #ff512f 0%,
+        #dd247d 51%,
+        #ff512f 100%
+    );
+    color: white;
+    border-color: red;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 4px solid blue;
+    
+}
+
+
+.container{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -39,27 +62,67 @@ body{
 }
 
 .nav__item:hover{
-    border: 3px solid blue;
+    border: 5px solid blue;
     background-position: right center;  /* Change the direction of the change*/
 
 }
+
+
+
+.hero__image__container{
+    width: 100%;
+}
+
+.hero__image{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px black;
+}
+
+.hero__text{
+    font-size: 30px;
+    margin: 20 0px;
+}
+
 
 @media (min-width: 786px) {
     .navbar{
     justify-content: space-between;
     padding: 10px 20px;
 }
+
+.hero__container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
 }
 
-@media (min-width: 1020px) {
+
+
+@media (min-width: 1020px){    
+    .container{
+        max-width: 900px;
+    }
     .navbar__brand{
         width: 150px;
     }
+    .hero__description{
+        width: 100%;    
+    }
+    .button__primary{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .hero__text{
+        font-size: 50px;
+    }
+
 }
 
-.nav__item{
-    padding: 20px;
-    font-size: 20px;
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1300px;
+    }
 }
-
-
+}
