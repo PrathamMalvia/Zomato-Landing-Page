@@ -34,7 +34,7 @@ body {
 }
 
 .nav__item {
-    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
     color: #fff;
     border: none;
     padding: 12px;
@@ -43,10 +43,10 @@ body {
 }
 
 .button__primary {
-    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
     color: #fff;
     border: none;
-    padding: 12px;
+    padding: 10px;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -219,15 +219,15 @@ body {
 }
 
 .update__button {
-    width: 200px;
-    height: 30px;
+    text-align: center;
+    width: 200;
     align-items: center;
 }
 
 footer {
     display: flex;
     border-radius: 1rem 1rem 0 0;
-    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
 }
 
 footer:hover {
@@ -266,22 +266,26 @@ ul {
         justify-content: space-between;
         padding: 0px 20px;
     }
+
     .hero__container {
         margin-top: 10px;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
+
     .explore__menu__lists {
         display: flex;
         margin-top: 70px;
         padding: 0 30px;
         gap: 15px;
     }
+
     .explore__menu__container {
         position: relative;
         margin-top: 20px;
     }
+
     .explore__menu__gradient__bg {
         position: absolute;
         top: 0;
@@ -289,34 +293,41 @@ ul {
         width: 100%;
         height: 100%;
         margin-top: 40px;
-        background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+        background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
         transform: skewY(-5deg);
         z-index: -3;
     }
+
     .explore__menu__text {
         font-size: 40px;
         margin-top: 30px;
     }
+
     #pizza__card {
         margin-top: -10px;
         margin-bottom: 30px;
     }
+
     .food__card {
         margin-top: 50px;
     }
+
     .restaurent__container {
         margin-top: 70px;
         display: flex;
         align-items: center;
     }
+
     .restaurent__text {
         width: 100%;
         font-size: 30px;
     }
+
     .update__container {
         width: 100%;
         margin-top: 40px;
     }
+
     .update__input__text__button {
         width: 100%;
         display: flex;
@@ -324,6 +335,7 @@ ul {
         justify-content: center;
         gap: 10px;
     }
+
     #email__field {
         width: 400px;
         height: 40px;
@@ -333,27 +345,32 @@ ul {
         background-color: #FFEEDB;
         margin-top: 5px;
     }
+
     .update__text {
         font-size: 40px;
         text-align: center;
         width: 100%;
     }
+
     .update__button {
         height: 50px;
         margin-bottom: 50px;
         text-align: center;
     }
+
     footer {
         display: flex;
         border-radius: 1rem 1rem 0 0;
-        background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+        background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
     }
+
     .footer__image {
         width: 300px;
         filter: brightness(0) invert(1);
         align-items: flex-start;
         display: flex;
     }
+
     ul {
         font-family: 'Merriweather', serif;
         font-size: 20px;
@@ -364,11 +381,13 @@ ul {
         margin-top: 40px;
         cursor: pointer;
     }
+
     p {
         margin-top: 200px;
         display: flex;
         width: 100%;
     }
+
     .my__name {
         margin-top: 10px;
         display: flex;
@@ -382,34 +401,43 @@ ul {
     .container {
         max-width: 950px;
     }
+
     .food__card__image__container {
         max-width: 900px;
     }
+
     .navbar__brand {
         width: 130px;
     }
+
     .button__primary {
-        padding: 20px;
-        font-size: 20px;
+        padding: 15px;
+        font-size: 15px;
     }
+
     .hero__description {
         width: 100%;
     }
+
     .hero__text {
         font-size: 30px;
         margin-right: 20px;
     }
+
     .explore__menu__lists {
         display: flex;
         margin-top: 40px;
         gap: 30px;
     }
+
     .explore__menu__container {
         margin-top: 40px;
     }
+
     .restaurent__text {
         margin-top: 20px;
     }
+
     /* .hero__image__container {
     position: relative;
 }
@@ -431,4 +459,21 @@ ul {
     .container {
         max-width: 1450px;
     }
+}
+
+.quote__container {
+    text-align: center;
+    padding: 10px;
+}
+
+.quote__text {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+#footer__name {
+    padding: 20px;
 }
